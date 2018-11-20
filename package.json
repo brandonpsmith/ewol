@@ -1,0 +1,31 @@
+{
+  "name": "ewol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc -r=text -r=html ava --verbose"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "debug": "^4.1.0",
+    "esm": "^3.0.84",
+    "window-size": "^1.1.1",
+    "wrap-ansi": "^4.0.0"
+  },
+  "devDependencies": {
+    "ava": "^1.0.0-rc.2",
+    "nyc": "^13.1.0",
+    "sinon": "^7.2.0"
+  },
+  "ava": {
+    "files": [
+      "test/test.js"
+    ],
+    "babel": false,
+    "compileEnhancements": false,
+    "require": [
+      "esm"
+    ]
+  }
+}

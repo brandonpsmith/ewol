@@ -1,0 +1,13 @@
+# npm
+npm-debug.log*
+node_modules
+
+# vs code
+.vscode
+
+# osx
+.DS_Store
+
+# nyc
+.nyc_output
+coverage
